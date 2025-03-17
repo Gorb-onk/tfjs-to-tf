@@ -26,8 +26,6 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = [
-    "tensorflow-macos>=2.3; platform_system=='Darwin'",
-    "tensorflow-metal>=2.3; platform_machine=='arm64'",
     "tensorflowjs>=1.5.2",
 ]
 dynamic = ["version"]
